@@ -1,1 +1,51 @@
+Test 1) criptare un cuvant
+in.txt:
+hello
 
+out.txt: (./app -e in.txt -o out.txt)
+hkoor
+
+
+Test 2)
+in.txt:
+hello man
+
+out.txt: 
+hkoor dpq
+
+
+Test 3)
+in.txt:
+hello man
+test
+merge
+
+out.txt:
+hkoor dpq
+hwwv
+hpjuh
+
+
+Test 4)
+in.txt:
+hello man
+test
+merge
+
+encrypted.txt: (./app -e in.txt -o encrypted.txt)
+hkoor dpq
+hwwv
+hpjuh
+
+decrypted/txt: (./app -d encrypted.txt -o decrypted.txt)
+hello man
+test
+merge
+
+
+Test 5)
+in.txt:
+test pentru mai multe cuvinte
+
+out.txt:
+hwwv hswqxu dpl xpwoh xflywqh
